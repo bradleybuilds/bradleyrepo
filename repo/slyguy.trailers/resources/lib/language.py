@@ -1,0 +1,37 @@
+from slyguy.language import BaseLanguage
+
+
+class Language(BaseLanguage):
+    YT_APK                      = 30000
+    YT_NATIVE_APK_ID            = 30002
+    PYTHON2_NOT_SUPPORTED       = 30003
+    PYTHON2_NOT_SUPPORTED_ANDROID = 30004
+    NO_VIDEOS_FOUND_FOR_YT      = 30005
+    AUTO_TRANSLATE              = 30006
+    YT_SUBTITLES                = 30007
+    YT_AUTO_SUBTITLES           = 30008
+    YT_DLP_COOKIES_PATH         = 30009
+    YT_PLAY_WITH                = 30010
+    NO_YT_PLAY_MODE             = 30011
+    YT_DLP                      = 30012
+    YT_PLAY_FALLBACK            = 30013
+    TEST_STREAMS                = 30014
+    TRAILER_YOUTUBE             = 30018
+    TRAILER_SEARCH              = 30020
+    TRAILER_LOCAL               = 30021
+    TRAILER_CONTEXT             = 30022
+    CANT_PLAY_REDIRECTED        = 30023
+    YOUTUBE_PLUGIN              = 30024
+    TUBED_PLUGIN                = 30025
+    TRAILER_IMDB                = 30026
+    FAILED_SEARCH               = 30028
+    IGNORE_SCRAPED              = 30029
+    REVERSE_LOOKUP_MOVIE        = 30030
+    REVERSE_LOOKUP_TVSHOW       = 30031
+    REVERSE_LOOKUP_TVSHOW_KODI22 = 30032
+    TRAILER_CONTEXT_MOVIES      = 30033
+    TRAILER_CONTEXT_TV          = 30034
+    TRAILER_CONTEXT_SEASONS     = 30035
+
+
+_ = Language()
